@@ -1,3 +1,6 @@
+// ARRAYS
+// This program takes a number of days and uses arrays to print the temperature of those days, displays average and highest and lowest days
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -34,12 +37,7 @@ int main() {
 
 		printf("Day %d - low: ", i + 1);
 		scanf("%d", &low[i]);
-
-
-
-
 	}
-
 
 	printf("\n Day  Hi  Low");
 	for (int j = 0; j < days; j++) {
